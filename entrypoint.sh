@@ -2,9 +2,9 @@
 
 CONFIG=""
 # check if using gitleaks config or not
-if [ -f "$GITHUB_WORKSPACE/.gitleaks.toml" ]
+if [ -f "$GITHUB_WORKSPACE/.rules.toml" ]
 then
-  CONFIG=" --config=$GITHUB_WORKSPACE/.gitleaks.toml"
+  CONFIG=" --config=$GITHUB_WORKSPACE/.rules.toml"
 fi
 
 echo running gitleaks "$(gitleaks --version) with the following command👇"
