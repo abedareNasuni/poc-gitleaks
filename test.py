@@ -10,8 +10,8 @@ num = 5;
 print("Factorial of",num,"is",
 factorial(num))
 
-#username = "xyz"
-password ="dgna@1788BNK"
+username = 'xyz'
+password ='dgna@1788BNK'
 
-api_key = "aKNBBYI76789"
-token = "AJNBT8799FVH"
+api_key = 'aKNBBYI76789'
+token = 'AJNBT8799FVH'
